@@ -1,1 +1,16 @@
-a
+footer{
+    border-top: 2px solid black;
+    margin-top: 25px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.coding {
+    height:auto;
+    width: 50%;
+    margin-left: 20%;
+}
