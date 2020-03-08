@@ -32,6 +32,13 @@ span{
     margin-left: 10px;
 }
 
+input:hover{
+    background-color: #ff3636;
+}
+input:active{
+    background-color: yellow;
+}
+
 .title{
     display: flex;
     align-items: center;
@@ -56,13 +63,109 @@ span{
     margin-left: 20%;
 }
 
-.butdown{
-    height:30px;
-    width:150px;
+.butdown {
+    height: 30px;
+    width: 150px;
     border-color: blue;
     border-top-left-radius: 500px;
     border-bottom-left-radius: 500px;
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;
     background-color: white;
+}
+
+.ABCD{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.question{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-style: solid;
+    height: 60px;
+    width: 600px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: white;
+}
+.question\?\?{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.answer{
+    display: flex;
+    align-items: center;
+}
+
+#Acase{
+    border-style: solid;
+    height: 30px;
+    width: 300px;
+    border-top-left-radius: 350px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: white;
+}
+#Acase:hover{
+    background-color: green;
+}
+
+#Bcase{
+    border-style: solid;
+    height: 30px;
+    width: 300px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 350px;
+    border-bottom-right-radius: 35px;
+    background-color: white;
+}
+#Bcase:hover{
+    background-color: green;
+}
+
+#Ccase{
+    border-style: solid;
+    height: 30px;
+    width: 300px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 350px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: white;
+}
+#Ccase:hover{
+    background-color: green;
+}
+
+#Dcase{
+    border-style: solid;
+    height: 30px;
+    width: 300px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 350px;
+    background-color: white;
+}
+#Dcase:hover{
+    background-color: green;
+}
+
+.centerquiz{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.padbottom{
+    margin-bottom: 5%;
 }
